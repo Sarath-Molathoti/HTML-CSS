@@ -1,0 +1,46 @@
+table{
+width:80%;
+margin:auto;
+border:2px solid blue;
+padding:0px 30px 30px 30px;
+color:red;
+}
+body{
+	background:cyan;
+}
+.s1{
+	margin-right:40px;
+}
+.s2{
+	margin-bottom:15px;
+	
+}
+textarea{
+	resize:none;
+	border-radius:5px;
+	
+}
+h1{
+	text-align:center;
+	text-shadow:2px 2px yellow;
+}
+
+
+h3{
+	background:blue;
+	color:white;
+	width:93.2%;
+	margin:auto;
+	text-align:center;
+	height:30px;
+	padding:2px;
+}
+.back{
+background:silver;
+width:90%;
+margin:auto;
+height:100%;
+}
+.basic{
+	margin-bottom:30px;
+}

@@ -1,0 +1,169 @@
+
+.logo{
+	width:400px;
+	height:60px;
+	margin-left:70px;
+	margin-top:25px;
+	
+	
+}
+a:hover{
+	text-decoration:underline;
+}
+	
+.head{
+	width:80%;
+	margin:auto;
+}
+.content{
+	width:72%;
+	margin:auto;
+	
+}
+.poster{
+	width:72%;
+	margin:auto;
+	height:250px;
+}
+.top li{
+	display:inline;
+	margin-right:54px;
+}
+.top li a{
+	font-weight:bold;
+	font-family:arial;
+	letter-spacing:-1px;
+	font-stretch:condensed;
+	
+}
+a{
+	text-decoration:none;
+}
+.images img{
+	width:100%;
+	height:400px;
+}
+.table4,tr,td{
+	width:700px;
+	height:30px;
+	border-bottom:1px solid gray;
+	border-collapse:collapse;
+	text-align:left;
+	padding:4px;
+	
+}
+
+.heading{
+	background-color:#369;
+	color:white;
+	font-weight:bold;
+	font-family:arial;
+	font-size:100%;
+	height:45px;
+}
+.foot{
+    height:320px;
+    background-color:#369;
+    color:white;
+	margin-top:50px;
+	
+}	
+.table1{
+	width:500px;
+	height:90px;
+	margin-left:90px;
+	margin-top:30px;
+	float:bottom;
+	border:1px solid gray;
+	border-collapse:collapse;
+	overflow:hidden;
+	
+}
+.ramimg{
+	width:50px;
+	height:50px;
+}
+.table2{
+	width:340px;
+	height:90px;
+	margin-top:30px;
+	margin-right:20px;
+	float:left;
+	border:1px solid gray;
+	border-collapse:collapse;
+	overflow:hidden;
+	text-align:center;
+	
+}
+.table3{
+	width:340px;
+	height:90px;
+	margin-top:30px;
+	float:left;
+	border:1px solid gray;
+	border-collapse:collapse;
+	overflow:hidden;
+	
+}
+.c1{
+	margin-left:180px;
+	float:left;
+	margin-top:20px;
+}
+.c1 li{
+	list-style-type:none;
+	margin-top:5px;
+	
+}
+.c2{
+	margin-left:185px;
+	margin-top:-95px;
+	float:left;
+
+}
+.c2 li{
+	list-style-type:none;
+	margin-top:5px;
+	
+}
+.top li a:hover{
+	text-decoration:underline;
+}
+p{
+	float:right;
+}
+.c3{
+	margin-left:220px;
+	margin-top:-168px;
+	float:left;
+}
+.c4{
+	margin-left:240px;
+	margin-top:-198px;
+	float:left;
+}
+::-webkit-input-placeholder{
+	color:white;
+	opacity:1;
+}
+.copy{
+	
+	margin-top:100px;
+}
+.copy p{
+	margin-left:-600px;
+}
+.heading:hover{
+	background:#369;
+}
+td:hover{
+	background:silver;
+}
+td{
+	padding-left:10px;
+	
+}
+th{
+	padding-left:10px;
+}
+
