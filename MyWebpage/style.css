@@ -1,0 +1,36 @@
+body{
+	background-image:url(cool8.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.nav{
+	margin-left:350px;
+}
+.top{
+	height:80px;
+}
+
+.main-nav li{
+	list-style-type:none;
+	float:left;
+	display:inline-block;
+	padding-left:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+a:hover {
+	background:red;
+	border:1px solid black;
+	padding:10px 10px 10px 10px;
+	
+}
+.center{
+	margin-top:100px;
+	
+}
+

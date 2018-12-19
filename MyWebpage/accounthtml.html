@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Facebook Account</title>
+<link rel="stylesheet" href="accountcss.css" media="screen" type="text/css" >
+</head>
+<body>
+<div class="heading"><h1>Create a new account</h1><br>
+</div>
+<div class="content">
+                   
+                    <form name="myform" onsubmit="return check()" action="F:\NITC@HTML\main.html" >
+					First Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input class="reg-details" type="text" placeholder="First Name" name="name1" required="true" ><br>
+	                Last Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input class="reg-details" type="text" placeholder="Last Name" name="name2" required="true" ><br>
+	                Email Id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input class="reg-details" type="email" placeholder="Email id" name="mail" required="true"><br>
+					Mobile Number &nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input class="reg-details" type="text" placeholder="Mobile Number" name="mobno" required="true"><br>
+					Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input class="reg-details" type="password" placeholder="Password" name="pass" required="true"><br>
+	                Confirm Password :&nbsp;&nbsp;&nbsp;<input class="reg-details" type="password" placeholder="Confirm Password" name="cpass" required="true"><br>
+					Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;<input type="radio" value="Male" style="margin-bottom:10px;"  >Male
+	                <input type="radio" value="Female"  style="margin-bottom:10px;" >Female<br>
+					Date of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<input class="reg-details1" type="date" placeholder="Date of Birth" name="dob" required="true" ><br>
+	                <button>Sign-up</button>
+					
+					<p class="message">Already have an account?<a href="login.html" style="color:white"> Login</a></p>
+                    </form>
+					<script>
+	                function check(){
+					var password=document.myform.pass.value;
+					var cpassword=document.myform.cpass.value;
+					var mobileno=document.myform.mobno.value;
+					if(mobileno.length!=10){
+					alert("Mobile Number must contain 10 digits");
+					return false;}
+	                if(password.length<6){
+	                alert("should have atleast 6 characters");
+					return false;
+	                }
+					if(password!=cpassword){
+					alert("Passwordand Confirm Password must be same");
+					return false;}
+					
+					else{
+					alert("Registered Successfully");}
+					}
+					
+	  
+					</script>
+</div>
+</body>
+</html>
